@@ -18,7 +18,7 @@
                 <!-- available banlance -->
                 <div class="stats shadow">
                     <div class="stat">
-                        <div class="stat-value">5500</div>
+                        <div class="stat-value"><span id="account-balance">5500</span></div>
                         <div class="stat-desc">Available banlance</div>
                     </div>
                 </div>
@@ -32,12 +32,11 @@
                  <!-- add Money Form -->
                  <div class="card-body">
                     <fieldset class="fieldset">
-                      <label class="fieldset-label">Email</label>
-                      <input type="email" class="input" placeholder="Email" />
-                      <label class="fieldset-label">Password</label>
-                      <input type="password" class="input" placeholder="Password" />
-                      <div><a class="link link-hover">Forgot password?</a></div>
-                      <button class="btn btn-neutral mt-4">Login</button>
+                      <label class="fieldset-label">Amount</label>
+                      <input id="input-amount" type="number" class="input" placeholder="amount" />
+                      <label class="fieldset-label">Pin</label>
+                      <input id="input-pin" type="password" class="input" placeholder="pin number" />
+                      <button id="add-money-btn" class="btn btn-neutral bg-blue-600 mt-4">Add Money</button>
                     </fieldset>
                   </div>
             </div>
