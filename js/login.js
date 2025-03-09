@@ -7,6 +7,6 @@ document.getElementById('btn-login').addEventListener('click', function(event){
         window.location.href = '/home.html'
     }
     else{
-        console.log('wrong phone number or pin');
+        alert('wrong phone number or pin');
     }
 })
